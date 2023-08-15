@@ -48,7 +48,7 @@ const Header = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll)
     }
-  })
+  }, [])
 
   return (
     <header
