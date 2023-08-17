@@ -27,7 +27,7 @@ const HoursSelection = () => {
                 {hour}
               </div>
               <FaArrowRightLong className='text-accent text-[12px]' />
-              <div className=' font-medium text-[13px] text-secondary xl:ml-6'>
+              <div className=' font-medium text-[13px] text-secondary'>
                 {hour}
               </div>
             </div>
@@ -36,8 +36,12 @@ const HoursSelection = () => {
             </div> */}
           </Menu.Button>
           {/* items */}
-          <Menu.Items className='dropdown-menu shadow-lg absolute -top-72 xl:top-[90px] left-1/2 xl:left-0 z-10 transform -translate-x-1/2 xl:-translate-x-0 text-sm text-center xl:text-left w-full bg-white max-w-[332px] py-6 rounded-[10px] '>
-            Menu Items
+          <Menu.Items className='dropdown-menu shadow-lg absolute -top-72 xl:top-[90px] left-1/2 xl:left-0 z-10 transform -translate-x-1/2 xl:-translate-x-0 text-sm  w-full bg-white max-w-[332px] py-6 rounded-[10px] '>
+            {hours.map((hour,index)=>{
+              return (
+                <div onClick={()=>setHour(hour)} className="cursor-pointer py-4 text-center hover:bg-gray-50" key={index}>{hour}</div>
+              )
+            })}
           </Menu.Items>
         </div>
       </Menu>
