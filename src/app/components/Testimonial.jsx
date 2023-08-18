@@ -1,9 +1,14 @@
-import React from "react"
+import React from 'react'
+import TestimonialSlider from './TestimonialSlider'
 
 const Testimonial = () => {
   return (
-    <section className='section flex items-center bg-cyan-200' id='testimonial'>
-      Testimonial
+    <section
+      className='section flex items-center'
+      id='testimonial'>
+      <div className="container mx-auto">
+        <TestimonialSlider/>
+      </div>
     </section>
   )
 }

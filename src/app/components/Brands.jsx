@@ -20,36 +20,43 @@ const Brands = () => {
             width={85}
             height={32}
             alt='ford car'
+            className='w-auto h-auto'
+
           />
           <Image
             src={'icons/brands/mercedes.svg'}
             width={60}
             height={60}
             alt='mercedes car'
+            className='w-auto h-auto'
           />
           <Image
             src={'icons/brands/audi.svg'}
             width={85}
             height={50}
             alt='audi car'
+            className='w-auto h-auto'
           />
           <Image
             src={'icons/brands/bmw.svg'}
             width={60}
             height={60}
             alt='bmw car'
+            className='w-auto h-auto'
           />
           <Image
             src={'icons/brands/vw.svg'}
             width={60}
             height={60}
             alt='vw car'
+            className='w-auto h-auto'
           />
           <Image
             src={'icons/brands/skoda.svg'}
             width={60}
             height={60}
             alt='skoda car'
+            className='w-auto h-auto'
           />
         </div>
       </motion.div>
