@@ -16,42 +16,36 @@ const Brands = () => {
 
         <div className='grid grid-cols-3 gap-6 place-items-center xl:flex xl:flex-wrap xl:gap-x-6 xl:justify-between'>
           <Image
-            className='w-auto h-auto'
             src={'icons/brands/ford.svg'}
             width={85}
             height={32}
             alt='ford car'
           />
           <Image
-            className='w-auto h-auto'
             src={'icons/brands/mercedes.svg'}
             width={60}
             height={60}
             alt='mercedes car'
           />
           <Image
-            className='w-auto h-auto'
             src={'icons/brands/audi.svg'}
             width={85}
             height={50}
             alt='audi car'
           />
           <Image
-            className='w-auto h-auto'
             src={'icons/brands/bmw.svg'}
             width={60}
             height={60}
             alt='bmw car'
           />
           <Image
-            className='w-auto h-auto'
             src={'icons/brands/vw.svg'}
             width={60}
             height={60}
             alt='vw car'
           />
           <Image
-            className='w-auto h-auto'
             src={'icons/brands/skoda.svg'}
             width={60}
             height={60}

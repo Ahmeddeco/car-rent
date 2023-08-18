@@ -143,7 +143,7 @@ const CarSlider = () => {
             <SwiperSlide key={index}>
               <div className='max-w-[385px] mx-auto sm:mx-0'>
                 <Image
-                  className='w-auto h-auto'
+                  
                   src={car.image}
                   width={380}
                   height={284}
@@ -179,7 +179,7 @@ const CarSlider = () => {
                             width={24}
                             height={24}
                             alt='car'
-                            className='w-auto h-auto'
+                            
                           />
                         </div>
                         <div className='text-[12px] uppercase'>{item.text}</div>
